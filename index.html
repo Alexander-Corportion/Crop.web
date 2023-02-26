@@ -1,0 +1,837 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Alexander Corp.</title>
+
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&family=Source+Sans+Pro:wght@600;700&display=swap"
+    rel="stylesheet">
+</head>
+
+<body id="top">
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header" data-header>
+    <div class="container">
+
+      <div class="overlay" data-overlay></div>
+
+      <a href="#">
+        <h1 class="logo">Alexander Corp.</h1>
+      </a>
+
+      <nav class="navbar" data-navbar>
+
+        <div class="navbar-top">
+          <a href="#" class="logo">Alexander Corp.</a>
+
+          <button class="nav-close-btn" aria-label="Close Menu" data-nav-close-btn>
+            <ion-icon name="close-outline"></ion-icon>
+          </button>
+        </div>
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <a href="#home" class="navbar-link" data-navbar-link>Home</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#about" class="navbar-link" data-navbar-link>About</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#services" class="navbar-link" data-navbar-link>Services</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#features" class="navbar-link" data-navbar-link>Features</a>
+          </li>
+
+
+          <li class="navbar-item">
+            <a href="#features" class="navbar-link" data-navbar-link>Contact Us</a>
+          </li>
+
+        </ul>
+
+      </nav>
+
+      <a href="#features" class="btn">
+        <ion-icon name="chevron-forward-outline" aria-hidden="true"></ion-icon>
+
+        <span>Get A Quote</span>
+      </a>
+
+      <button class="nav-open-btn" aria-label="Open Menu" data-nav-open-btn>
+        <ion-icon name="menu-outline"></ion-icon>
+      </button>
+
+    </div>
+  </header>
+
+
+
+
+
+  <main>
+    <article>
+
+      <!-- 
+        - #HERO
+      -->
+
+      <section class="hero" id="home">
+        <div class="container">
+
+          <div class="hero-content">
+
+            <p class="hero-subtitle">We Are Alexander Corp. From India</p>
+
+            <h2 class="h2 hero-title">We Design Interfaces That Users Love</h2>
+
+            <p class="hero-text">
+              We are a company who mainly focus on the client side we listen to what they do need and we work according
+              to that only.
+
+              This company is owned by Adesh Tanmay. Who can also be considered as the youngest entrepreneu in india.
+            </p>
+
+            <button class="btn"><a href="#services" color="white"><b>Learn More</b></a></button>
+
+          </div>
+
+          <figure class="hero-banner">
+            <img src="./assets/images/hero-banner.png" width="694" height="529" loading="lazy" alt="hero-banner"
+              class="w-100 banner-animation">
+          </figure>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #ABOUT
+      -->
+
+      <section class="section about" id="about">
+        <div class="container">
+
+          <figure class="about-banner">
+            <img src="./assets/images/about-banner.png" width="700" height="532" loading="lazy" alt="about banner"
+              class="w-100 banner-animation">
+          </figure>
+
+          <div class="about-content">
+
+            <h2 class="h2 section-title underline">Why Our Agency</h2>
+
+            <p class="about-text">
+              We only look for delivering high-quality solutions to clients in our industry. Secondly, We consider our
+              level of expertise and experience in your
+              specific
+              area of need. Thirdly,we assess our ability to communicate effectively and work collaboratively with our
+              team. Finally, we take care of
+              commitment to our customer service, including responsiveness, transparency, and accountability.
+              Ultimately, the best agency for our
+              clients will depend on our unique needs and priorities.<br>
+              <br>
+
+              We work with most of the technologies like: HTML, CSS, JAVASCRIPT, MERN STACK, MEAN STACK. Also Front End and Back end development
+            </p>
+
+
+
+            <ul class="stats-list">
+
+              <li class="stats-card">
+                <p class="h3 stats-title">999+</p>
+
+                <p class="stats-text">Satisfied Clients</p>
+              </li>
+
+              <li class="stats-card">
+                <p class="h3 stats-title">994+</p>
+
+                <p class="stats-text">Project Lunched</p>
+              </li>
+
+              <li class="stats-card">
+                <p class="h3 stats-title">3</p>
+
+                <p class="stats-text">Years Completed</p>
+              </li>
+
+            </ul>
+
+          </div>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #SERVICE
+      -->
+
+      <section class="section service" id="services">
+        <div class="container">
+
+          <h2 class="h2 section-title underline">Our Speciallization</h2>
+
+          <ul class="service-list">
+
+            <li>
+              <div class="service-card">
+
+                <div class="card-icon">
+                  <ion-icon name="telescope-outline"></ion-icon>
+                </div>
+
+                <h3 class="h3 title">Strategy & Research</h3>
+
+                <p class="text">
+                  Our Strategy & Research team is here to help! With years of experience and a passion for innovation,
+                  our team of experts can help you develop a comprehensive strategy that will drive growth and success
+                  for your business. From market research and analysis to competitor insights and trend forecasting, we
+                  will provide you with the knowledge and insights you need to make informed decisions and stay ahead of
+                  the curve. Whether you're a startup or an established business, our team is dedicated to delivering
+                  customized solutions that are tailored to your unique needs and goals
+                </p>
+
+                <button class="card-btn" aria-label="Show More">
+                  <ion-icon name="chevron-forward-outline"></ion-icon>
+                </button>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="service-card">
+
+                <div class="card-icon">
+                  <ion-icon name="desktop-outline"></ion-icon>
+                </div>
+
+                <h3 class="h3 title">Web Development</h3>
+
+                <p class="text">
+                  Our team of expert web developers is here to help! With years of experience and a passion for
+                  innovative design, we specialize in creating custom websites that are tailored to your unique needs
+                  and goals.
+
+                  From sleek and modern landing pages to fully-functional e-commerce platforms, we have the expertise to
+                  bring your vision to life. Whether you're looking to revamp an existing site or build something
+                  entirely new, we'll work closely with you every step of the way to ensure your project is a success.
+
+                  Don't settle for a cookie-cutter website that doesn't reflect your brand's unique personality and
+                  values.
+                </p>
+
+                <button class="card-btn" aria-label="Show More">
+                  <ion-icon name="chevron-forward-outline"></ion-icon>
+                </button>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="service-card">
+
+                <div class="card-icon">
+                  <ion-icon name="globe-outline"></ion-icon>
+                </div>
+
+                <h3 class="h3 title">Web Solution</h3>
+
+                <p class="text">
+                  Our agency specializes in providing cutting-edge web solutions that are customized to meet the unique
+                  needs of your business. We pride ourselves on our commitment to quality, timeliness, and exceptional
+                  customer service. Our team of expert developers, designers, and project managers work collaboratively
+                  to ensure that your web solution is not only visually stunning but also highly functional and
+                  user-friendly. From e-commerce sites to custom web applications, we've got you covered. Contact us
+                  today to learn more about how we can take your online presence to the next level.
+                </p>
+
+                <button class="card-btn" aria-label="Show More">
+                  <ion-icon name="chevron-forward-outline"></ion-icon>
+                </button>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #FEATURES
+      -->
+
+      <section class="section features" id="features">
+        <div class="container">
+
+          <h2 class="h2 section-title underline">Our Features</h2>
+
+          <ul class="features-list">
+
+            <li>
+              <div class="features-card">
+
+                <div class="icon">
+                  <ion-icon name="bulb-outline"></ion-icon>
+                </div>
+
+                <div class="content">
+                  <h3 class="h3 title">Idea & Analysis</h3>
+
+                  <p class="text">
+                   We always have a good idea and alalysis of your work. Because we have a team for That.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="features-card">
+
+                <div class="icon">
+                  <ion-icon name="color-palette-outline"></ion-icon>
+                </div>
+
+                <div class="content">
+                  <h3 class="h3 title">Designing</h3>
+
+                  <p class="text">
+                     we specialize in creating custom websites that are tailored to your unique needs and goals.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+          <figure class="features-banner">
+            <img src="./assets/images/feautres-banner.png" width="369" height="318" loading="lazy" alt="Features Banner"
+              class="w-100 banner-animation">
+          </figure>
+
+          <ul class="features-list">
+
+            <li>
+              <div class="features-card">
+
+                <div class="icon">
+                  <ion-icon name="code-slash-outline"></ion-icon>
+                </div>
+
+                <div class="content">
+                  <h3 class="h3 title">Development</h3>
+
+                  <p class="text">
+                    Our team of expert web developers is here to help! With years of experience and a passion for innovative design.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="features-card">
+
+                <div class="icon">
+                  <ion-icon name="rocket-outline"></ion-icon>
+                </div>
+
+                <div class="content">
+                  <h3 class="h3 title">Testing & Lunching</h3>
+
+                  <p class="text">
+                    Our agency specializes in providing cutting-edge web solutions that are customized to meet the unique needs of your business. 
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+       <!-- 
+        - #BLOG
+      -->
+
+      <section class="section blog" id="blog">
+        <div class="container">
+
+          <h2 class="h2 section-title underline">Our More Projects</h2>
+
+          <ul class="blog-list">
+
+            <li>
+              <div class="blog-card">
+
+                <figure class="banner">
+                  <a href="https://alexander-corportion.github.io/Netflix-Clone/">
+                    <img src="./assets/images/Screenshot (12).png" width="750" height="350" loading="lazy"
+                      alt="Netflix clone image." class="img-cover">
+                  </a>
+                </figure>
+
+                <div class="content">
+
+                  <h3 class="h3 title">
+                    <a href="https://alexander-corportion.github.io/Netflix-Clone/">
+                      Netflix Clone Made In HTML, CSS, JAVASCRIPT.
+                    </a>
+                  </h3>
+
+                  <p class="text">
+                    This was just a sample website to showcase our customer about the wrok that we have done in HTML, CSS and JAVASCRIPT.
+                    If you want to check the website then click on the image
+                  </p>
+
+                  <div class="meta">
+
+                    <div class="publish-date">
+                      <ion-icon name="time-outline"></ion-icon>
+
+                      <time datetime="2023-03-09">9 March, 2023</time>
+                    </div>
+
+                    <button class="comment" aria-label="Comment">
+                      <ion-icon name="chatbubble-outline"></ion-icon>
+
+                      <data value="15">32</data>
+                    </button>
+
+                    <button class="share" aria-label="Share">
+                      <ion-icon name="share-social-outline"></ion-icon>
+                    </button>
+
+                  </div>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="blog-card">
+
+                <figure class="banner">
+                  <a href="https://alexander-corportion.github.io/J-com-Web/">
+                    <img src="./assets/images/Screenshot (14).png" width="750" height="350" loading="lazy"
+                      alt="J-com website." class="img-cover">
+                  </a>
+                </figure>
+
+                <div class="content">
+
+                  <h3 class="h3 title">
+                    <a href="https://alexander-corportion.github.io/J-com-Web/">
+                      J-com Website Made In MEAN STACK
+                    </a>
+                  </h3>
+
+                  <p class="text">
+                    This is e-commerce wbeiste in Mongo DB, Express JS, Angular JS, Node JS. So if you want to check out the website then click on the image.
+                  </p>
+
+                  <div class="meta">
+
+                    <div class="publish-date">
+                      <ion-icon name="time-outline"></ion-icon>
+
+                      <time datetime="2022-03-09">9 March, 2022</time>
+                    </div>
+
+                    <button class="comment" aria-label="Comment">
+                      <ion-icon name="chatbubble-outline"></ion-icon>
+
+                      <data value="15">19</data>
+                    </button>
+
+                    <button class="share" aria-label="Share">
+                      <ion-icon name="share-social-outline"></ion-icon>
+                    </button>
+
+                  </div>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="blog-card">
+
+                <figure class="banner">
+                  <a href="https://alexander-corportion.github.io/Developer-Portfolio/">
+                    <img src="./assets/images/Screenshot (16).png" width="750" height="350" loading="lazy"
+                      alt="Portfolio Website_01." class="img-cover">
+                  </a>
+                </figure>
+
+                <div class="content">
+
+                  <h3 class="h3 title">
+                    <a href="https://alexander-corportion.github.io/Developer-Portfolio/">
+                     Portfolio Website Made In JAVASCRIPT
+                    </a>
+                  </h3>
+
+                  <p class="text">
+                    This is a website which made in Javascript this is just a sample site that's why nothing much is written in that. So if you want chech out the website click on the image
+                  </p>
+
+                  <div class="meta">
+
+                    <div class="publish-date">
+                      <ion-icon name="time-outline"></ion-icon>
+
+                      <time datetime="2022-03-09">9 March, 2023</time>
+                    </div>
+
+                    <button class="comment" aria-label="Comment">
+                      <ion-icon name="chatbubble-outline"></ion-icon>
+
+                      <data value="15">25</data>
+                    </button>
+
+                    <button class="share" aria-label="Share">
+                      <ion-icon name="share-social-outline"></ion-icon>
+                    </button>
+
+                  </div>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="blog-card">
+
+                <figure class="banner">
+                  <a href="https://alexander-corportion.github.io/PortfolioWebsite/">
+                    <img src="./assets/images/Screenshot (95).png" width="750" height="350" loading="lazy"
+                      alt="Portfolio Website_02." class="img-cover">
+                  </a>
+                </figure>
+
+                <div class="content">
+
+                  <h3 class="h3 title">
+                    <a href="https://alexander-corportion.github.io/PortfolioWebsite/">
+                     Portfolio Website Made In HTML, CSSS,, JAVASCRIPT
+                    </a>
+                  </h3>
+
+                  <p class="text">
+                    This is a website which made in HTML, CSS, Javascript this is just a sample site that's why nothing much is written in that. So if you want chech out the website click on the image
+                  </p>
+
+                  <div class="meta">
+
+                    <div class="publish-date">
+                      <ion-icon name="time-outline"></ion-icon>
+
+                      <time datetime="2022-03-09">9 March, 2023</time>
+                    </div>
+
+                    <button class="comment" aria-label="Comment">
+                      <ion-icon name="chatbubble-outline"></ion-icon>
+
+                      <data value="15">26</data>
+                    </button>
+
+                    <button class="share" aria-label="Share">
+                      <ion-icon name="share-social-outline"></ion-icon>
+                    </button>
+
+                  </div>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="blog-card">
+
+                <figure class="banner">
+                  <a href="https://alexander-corportion.github.io/Sustainable-website-2023/">
+                    <img src="./assets/images/Screenshot (96).png" width="750" height="350" loading="lazy"
+                      alt="Fusce sem ligula, imperdiet sed nisi sit amet, euismod posuere." class="img-cover">
+                  </a>
+                </figure>
+
+                <div class="content">
+
+                  <h3 class="h3 title">
+                    <a href="https://alexander-corportion.github.io/Sustainable-website-2023/">
+                     Sustainable Development Website Made In Javascript
+                    </a>
+                  </h3>
+
+                  <p class="text">
+                    This is a website which made in Javascript this is just a sample site that's why nothing much is written in that. So if you want chech out the website click on the image
+                  </p>
+
+                  <div class="meta">
+
+                    <div class="publish-date">
+                      <ion-icon name="time-outline"></ion-icon>
+
+                      <time datetime="2022-03-09">9 March, 2023</time>
+                    </div>
+
+                    <button class="comment" aria-label="Comment">
+                      <ion-icon name="chatbubble-outline"></ion-icon>
+
+                      <data value="15">25</data>
+                    </button>
+
+                    <button class="share" aria-label="Share">
+                      <ion-icon name="share-social-outline"></ion-icon>
+                    </button>
+
+                  </div>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+             
+
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+    </article>
+  </main>
+
+
+
+
+
+
+
+
+     
+  <!-- 
+    - #FOOTER
+  -->
+
+  <footer class="footer" href="#footer">
+
+    <div class="footer-top section">
+      <div class="container">
+
+        <div class="footer-brand">
+
+          <a href="#" class="logo">Alexander Corp.</a>
+
+          <p class="text">
+            Now it's seems like you are on the end of the webpage which means you are willing to take our services.
+            So please try to contact us on given number. Please whatsapp us or email us.
+          </p>
+
+          <ul class="social-list">
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-facebook"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-instagram"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-twitter"></ion-icon>
+              </a>
+            </li>
+
+          </ul>
+
+        </div>
+
+        <ul class="footer-list">
+
+          <li>
+            <p class="footer-list-title">Our links</p>
+          </li>
+
+          <li>
+            <a href="#home" class="footer-link">Home</a>
+          </li>
+
+          <li>
+            <a href="#about" class="footer-link">About Us</a>
+          </li>
+
+          <li>
+            <a href="#services" class="footer-link">Services</a>
+          </li>
+         
+
+        </ul>
+
+        <ul class="footer-list">
+
+          <li>
+            <p class="footer-list-title">Our Services</p>
+          </li>
+
+          <li>
+            <a href="#services" class="footer-link">Strategy & Research</a>
+          </li>
+
+          <li>
+            <a href="#services" class="footer-link">Web Development</a>
+          </li>
+
+          <li>
+            <a href="#services" class="footer-link">Web Solution</a>
+          </li>
+
+
+
+        <ul class="footer-list">
+
+          <li>
+            <p class="footer-list-title">Contact Us</p>
+          </li>
+
+          <li class="footer-item">
+
+            <div class="footer-item-icon">
+              <ion-icon name="call"></ion-icon>
+            </div>
+
+            <div>
+              <a href="tel:+918969991813" class="footer-item-link">+91 8969991813</a>
+              <a href="tel:++919142136867" class="footer-item-link">+91 9142136867</a>
+            </div>
+
+          </li>
+
+          <li class="footer-item">
+
+            <div class="footer-item-icon">
+              <ion-icon name="mail"></ion-icon>
+            </div>
+
+            <div>
+              <a href="mailto:adeshtanmay007@gmail.com" class="footer-item-link">adeshtanmay007@gmail.com</a>
+              <a href="mailto:alexandercorportion@gmail.com" class="footer-item-link">alexandercorportion@gmail.com</a>
+            </div>
+
+          </li>
+
+          <li class="footer-item">
+
+            <div class="footer-item-icon">
+              <ion-icon name="location"></ion-icon>
+            </div>
+
+            <address class="footer-item-link">
+              India, Bihar, Patna 800024
+            </address>
+
+          </li>
+
+        </ul>
+
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <p class="copyright">
+        &copy; 2023 <a href="#" class="copyright-link">Alexander Corp.</a>. All Right Reserved
+      </p>
+    </div>
+
+  </footer>
+
+
+
+
+
+  <!-- 
+    - #GO TO TOP
+  -->
+
+  <a href="#top" class="go-top  active" aria-label="Go To Top" data-go-top>
+    <ion-icon name="arrow-up-outline"></ion-icon>
+  </a>
+
+
+
+
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!-- 
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
